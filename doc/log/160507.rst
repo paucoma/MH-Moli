@@ -1,0 +1,27 @@
+===========
+2016/05/07 
+===========
+
+- Working on MH-Moli
+--------------
+WIT Equipment 
+--------------
+
+  - Did a calculation on the consumed energy by the device and it turns out that the consumption average is around 2.5W, seems a bit low.. maybe there was a reset? 
+    + In any case, going to add a battery to the Device on its battery terminal.
+    
+  1. Turned off the power
+  2. Connected the 12V Battery
+    2a. The WIT turned on, the Bat light on the Plugpower is constant on, current consumption from the bat was approx 250mA
+  3. Connected the Power again.
+    3a. The Bat light started blinking rapidly.. the current into the bat(I'm assuming was 130 mA and decreasing)
+  4. Reconnected to the WIT, the Historicos are blanked out, except for the VA which is at 1197.731 litres
+
+
+WIT Program
+============
+
+  - Noticed that the Accumulated Volume does not update, this is because the little checkbox for clear was ticked.
+    + I unticked it to resolve the problem. Now the Volume is accumulating.. Saved the new Parameters.
+  - Not so sure about the current measurement... going to test with he multimeter in series
+    + Adjusted to 1,0573 multiplying factor

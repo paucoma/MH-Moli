@@ -1,6 +1,6 @@
-==========================
-Ultrasonic Sensor Output
-==========================
+==================
+Ultrasonic Sensor 
+==================
 
 ------------------------
 Device Characteristics
@@ -12,6 +12,14 @@ The ultrasonic sensor is the U500.DA0-11110575 from Baumer. This device is capab
 This adaptive output is recognized automatically on device power-up. During Startup, the device measures the impedance, *Z* , connected between its output (black cable/pin 4) and Ground (Blue cable/pin 3).
   - if Z > 10 kOhm --> Output === Voltage output (0-10 Vdc)
   - if Z < 10 kOhm --> Output === Current Output (4-20 mAdc)
+
+Sensor Placement
+=================
+The sensor is placed at a height of approximately 925 mm from the flume floor. Unfortunately it appears as if the flume inclination has approximately a 10mm difference from head to tail. When calculating the flume height we would ideally subtract the measured distance by the sensor from 925mm but given the inclination of the flume we have to compensate for this inclination.
+
++----------------------+----------+
+| Flume Floor Distance |  917 mm  |
++----------------------+----------+
 
 ----------------------------------
 Connected Device Characteristics

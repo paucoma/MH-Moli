@@ -1,0 +1,109 @@
+===========
+2016/05/10
+===========
+
+  - Working from home, Called Gonzalo and did a Teamviewer test
+  
+------------------------
+Clip Tool Configuration
+------------------------
+
+Parameters
+===========
+
+Communication
+--------------
+
+Hayes Command Modem
+^^^^^^^^^^^^^^^^^^^^
+  - Initialisation
+    + ATQ0
+      * Not Quiet Mode, Send Result Codes
+  - Temporization between Init. and Config. (Seconds)
+    + 0
+  - Configuration
+    + ATE0X1
+      * Echo Off, Result Code CONNECT <text>, dial tone and busy detection disabled.
+  - kind of modem
+    + (blank)
+  - Call prefix
+    + (blank)
+  - Synchronous numbering
+    + checked
+
+
+General COM
+^^^^^^^^^^^^
+  - Multipoint
+    + unchecked
+  - Answer Time
+    + 10
+  - Tempo save
+    + 15
+  - Tempo.Minitel
+    + 60
+  - Request Frames
+    + Journal ->
+      * Checked
+    + Traces fix in exit call ->
+      * Checked
+    + Messages <->
+      * Unchecked
+    + Year Planning <->
+      * Unchecked
+    + Status <-
+      * Checked
+    + Week Planning <-
+      * Unchecked
+
+
+Local COM
+^^^^^^^^^^
+  - Port
+    + COM3
+  - Speed
+    + 9600
+  - Format
+    + 8, None
+  - Defect : 7,Even
+
+COM Modem (PSTN)
+^^^^^^^^^^^^^^^^^
+  - Port
+    + COM3
+  - Speed
+    + 9600
+  - Format
+    + 8, None
+  - Time Limit without char (Seconds)
+    + _120
+  - Time Limit in cinnecion (Minutes) 
+    + 30
+
+Ethernet COM
+^^^^^^^^^^^^^
+  - Enable Ethernet
+    + unchecked
+  - 2001 , 1
+  - Parity On
+    + unchecked
+  - Relance Automatique
+    + unchecked
+
+
+Test Run
+=========
+
+When we connected it did its authentication and since the site was not setup, it asked for a password.. We gave it the site password and it started querying all parameters to find what is active 
+
+In the Status Tab, under "Free" sub-tab slowly appears the registers:
++-----+------------+--------+------+-------+------+
+| Nb. | Identifier | Status | Area | Class | Type |
++=====+============+========+======+=======+======+
+| 017 |  VA  | = m3 : 19,7 | A | 0 | Unknown Type |
+| 018 |  QMH  | = l/s : 0,0 | A | 0 | Unknown Type |
++-----+------------+--------+------+-------+------+
+
+In the Summary Tab after a bit appears the Date and Time
+
+Modem Init ATZ --> Change to ATQ0 --> Apparently the Clip Tool is looking for feedback
