@@ -47,10 +47,10 @@ To compensate for this, on site calibration was necessary.
 
 .. |DMM| replace:: Digital Multi-Meter
 
-  +-----------------------+------------+
-  | Compensation Constant | 1.0573     |
-  +-----------------------+------------+
-  | Calibration Date      | 2016/05/07 |
-  +-----------------------+------------+
++-----------------------+------------+
+| Compensation Constant | 1.0573     |
++-----------------------+------------+
+| Calibration Date      | 2016/05/07 |
++-----------------------+------------+
 
 
