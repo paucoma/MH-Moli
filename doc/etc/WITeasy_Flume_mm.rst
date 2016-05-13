@@ -1,5 +1,5 @@
 ==============================
-Variable analógica "Flume mm"
+Variable analÃ³gica "Flume mm"
 ==============================
 
 This resource treats the ultrasonic sensor output.
@@ -61,12 +61,12 @@ Considering that current will be obtained with 2 decimal point accuracy:
 
 WIT Linearization Function
 ===========================
-The Easy has a way of linearlizing a varible where you define two points (X_1,Y_1),(X_2,Y_2) and the translation from X (input) to Y(output) is done.
+The Easy has a way of linearlizing a varible where you define two points :math:`(X_1,Y_1),(X_2,Y_2)` and the translation from X(input) to Y(output) is done.
 
-+-----+-----+-----+-----+
-| X_1 | Y_1 | X_2 | Y_2 |
-+=====+=====+=====+=====+
-| 4   | 100 | 20  | 1000|
-+-----+-----+-----+-----+
+.. math::
+
+  input\leadsto (4,100),(20,1000)\leadsto y = \frac{900}{16}\cdot x-125\leadsto output
+
+
 
 
