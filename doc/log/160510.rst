@@ -97,12 +97,14 @@ Test Run
 When we connected it did its authentication and since the site was not setup, it asked for a password.. We gave it the site password and it started querying all parameters to find what is active 
 
 In the Status Tab, under "Free" sub-tab slowly appears the registers:
-+-----+------------+--------+------+-------+------+
-| Nb. | Identifier | Status | Area | Class | Type |
-+=====+============+========+======+=======+======+
-| 017 |  VA  | = m3 : 19,7 | A | 0 | Unknown Type |
-| 018 |  QMH  | = l/s : 0,0 | A | 0 | Unknown Type |
-+-----+------------+--------+------+-------+------+
+
++-----+------------+------------+------+-------+--------------+
+| Nb. | Identifier | Status     | Area | Class | Type         |
++=====+============+============+======+=======+==============+
+| 017 |  VA        | =m3 : 19,7 | A    | 0     | Unknown Type |
++-----+------------+------------+------+-------+--------------+
+| 018 |  QMH       | =l/s : 0,0 | A    | 0     | Unknown Type |
++-----+------------+------------+------+-------+--------------+
 
 In the Summary Tab after a bit appears the Date and Time
 
