@@ -1,0 +1,59 @@
+===========
+2016/05/14
+===========
+
+---------------------
+Power Supply Upgrade
+---------------------
+
+Battery Exchange
+=================
+- Remove 2x 12V 7.2Ah Bats
+- Add new Batts 2x 22Ah 12V
+
+PV Batt Charging Upgrade
+=========================
+- Remove PWM Charger
+- Remove Energy Logger
+- Add MPPT Charger
+
+MPPT Charger Info
+------------------
+
++------------------------+-------------------------------+
+| **Product**            | BlueSolar Charger MPPT 75/15  |
++------------------------+-------------------------------+
+| **Serial Number**      | HQ1529K7GQU                   |
++------------------------+-------------------------------+
+| **Product Firmware**   |  v1.16                        |
++------------------------+-------------------------------+
+| **Absorption voltage** |  28.5 V                       |
++------------------------+-------------------------------+
+| **Float voltage**      |  27.0 V                       |
++------------------------+-------------------------------+
+|**Equalization voltage**|  29.6 V                       |
++------------------------+-------------------------------+
+| **Equalize interval**  |  0 = off                      |
++------------------------+-------------------------------+
+| **Max Charge Current** |  7 A                          |
++------------------------+-------------------------------+
+|**Load Operation Mode** | Conv. 2: off<23.6V, on>28.00V |
++------------------------+-------------------------------+
+
+
+Working Voltage Evolution
+==========================
+
+- Removed Step-up to 24 Vdc
+- Configured batteries to work in series 12+12=24
+- Add Step Down to 23Vdc
+
+--------
+WIT Work
+--------
+
+x 1. Check current stored values and read from the WIT device:
+ x 1a. via Ethernet
+ x 1b. via CSD (GSM) Bring TC35i
+
+Time is wrong and cannot be changed via the Internet Interface. Can be changed via CLIP-TOOL though as I found out in the following days. 

@@ -1,0 +1,37 @@
+===============
+2016 / 05 / 22
+===============
+
+------------------------
+TeamViewer with Gonzalo
+------------------------
+
+When: Thursday
+Why: To learn how to add some dummy variables
+
+The reason why the variable starts at 17 is because the Topkapi has digital variables defined from 1 to 16 and then analogic varibles.
+
+  1. Parametrizacion --> Recursos --> Añadir un recurso --> Variable --> Variable logica
+  2. Add in the resource defines : Funciones --> Historico --> Historico digital
+  3. Click on the new defined Historic: 
+    - Set a title
+    - Set the Id to the specific WIT-Trace that we want.
+  4. We can repeat this in theory for as many as we want in the same box.
+
+----------
+MH Moli
+----------
+
+1. We are going to modify the multiplication / division factor 
+ - Done
+2. We are going to remove the function calculation that does nothing.
+  - Done
+3. We are going to add dummy registers from 3 to 16
+  -Done
+4. Downloaded all the historics
+  - Done
+5. Reset the device
+
+
+
+
