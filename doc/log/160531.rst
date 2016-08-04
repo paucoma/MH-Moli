@@ -1,0 +1,22 @@
+===============
+2016 / 05 / 31
+===============
+
+------------------------
+Easy Data WIT Program
+------------------------
+
+When: Tuesday
+Why: Add analog variables to see if a complete cycle from the TopKapi Program flows
+
+  1. Parametrizacion --> Recursos --> Añadir un recurso --> Variable --> Variable Analogica
+  2. Identidad --> Etiqueta : Traces Dummy Analog
+  3. Identidad --> Numero recurso WIT-NET : R019
+  4. Add in the resource defines : Funciones --> Historico --> Historico analogico
+  3. Click on the new defined Historic: 
+    - Set a title
+    - Set the Id to the specific WIT-Trace that we want.
+    - Top --> Hora
+  4. We can repeat this in theory for as many as we want in the same box.
+
+

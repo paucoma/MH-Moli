@@ -1,0 +1,17 @@
+===============
+2016 / 07 / 09
+===============
+
+------------------------
+Easy Data WIT Program
+------------------------
+
+Who: Pau
+When: Saturday
+Why: Routine Inspection
+What: Download Data, Visual inspection
+Where: At the "Escala de peixos"
+
+Found: Everything in order except for that someone had moved the Flume Covers blocking the ultrasound measurement path. As a consequence the sensor was measuring 500mm which is out of bounds and therefore the recorded result was 0.
+
+Analyzing the logs: it appears as though there are some spikes every now and then.. a bit strange.. will need to generate correlation graphs to see where and when it may be coming from.
